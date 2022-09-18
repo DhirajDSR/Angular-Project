@@ -1,0 +1,81 @@
+
+
+<div id="header">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" routerLink="WiproMusic">
+    <img src="../assets/unnamed.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    WiproMusic
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto  ">
+        <li class="nav-item ">
+          <a class="nav-link" routerLink="WiproMusic" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"><i class="fas fa-home"></i>Home <span class="sr-only">(current)</span></a>
+        </li>
+        <ng-container *ngIf="loginstatustrue">
+        <li class="nav-item">
+          <a class="nav-link " routerLink="editplaylist/playlist" routerLinkActive="active"><i class="fas fa-plus"></i>Edit Playlist</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" routerLink="editplaylist/songlist" routerLinkActive="active" ><i class="far fa-images"></i>Songs</a>
+        </li>
+      </ng-container>
+      </ul>
+      <form class="form-inline mr-5 ">
+        <input class="form-control mr-sm-2" #reset type="search" (input)="filter($event.target.value)" placeholder="Search" aria-label="Search" [(ngModel)]="songsearch" name="search">
+        <button class="btn btn-success my-2 my-sm-0 " type="submit" (click)="search()"><i class="fas fa-search"></i></button>
+      </form>
+      <ng-container *ngIf="!loginstatustrue">
+      <ul class="navbar-nav">
+        <li><a  class="nav-link" routerLink="signup" routerLinkActive="active"><i class="fas fa-user-plus"></i> SignUp</a></li>
+        <li><a  class="nav-link" routerLink="login" routerLinkActive="active"><i class="fas fa-sign-in-alt"></i> LogIn</a></li>
+      </ul>
+      </ng-container>
+      <ng-container *ngIf="loginstatustrue">
+        <ul class="navbar-nav">
+          <li><a  class="nav-link" href="javascript:void(0)" routerLink="profile"><i class="fas fa-user"></i> Welcome! <b>{{loginstatustrue}} </b></a></li>
+          <li><a  class="nav-link" href="javascript:void(0)" (click)="logout()"><i class="fas fa-sign-out-alt"></i> Logout </a></li>
+        </ul>
+      </ng-container>
+    </div>
+</nav>
+</div>
+
+<div class="fluid-container">
+  <div class="body_containers">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+<div class="footer">
+<section class="footer bg-dark text-white">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 ">
+                <p>&#169;2021 Copyright. <a class="navbar-brand text-white" routerLink="WiproMusic">
+                  <img src="../assets/unnamed.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                  WiproMusic
+                  </a> </p>  
+            </div>
+            
+            <div class="col-md-6 text-center footer-icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-pinterest-square"></i>
+                <i class="fab fa-google-plus-g"></i>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+<div class="container card mt-3" style="width: 31rem; height: auto">
+  <div class="row">
+    <div class="col-6">
+      <img
+        src="{{ songlist[id]?.ImgUrl }}"
+        class="card-img"
+        alt="..."
+        style="width: 15 rem; height: 10rem"
+      />
+    </div>
+    <div class="vl"></div>
+    <div class="col-6">
+      <h6 class="mt-2">
+        Name: <span> {{ songlist[id]?.Name }}</span> <br />
+        Singer: <span>{{ songlist[id]?.Singer }} </span> <br />
+        Movie:<span> {{ songlist[id]?.movie }} </span><br />
+        Genre:<span> {{ songlist[id]?.genere }} </span><br />
+        Length:<span> {{ songlist[id]?.Length }} </span><br />
+      </h6>
+    </div>
+  </div>
+</div>

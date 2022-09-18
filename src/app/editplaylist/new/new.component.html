@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-md-5 col-sm-12 mx-auto mt-4">
+        <form [formGroup]="myReactiveForm">
+            <div class="form-group">
+                <input type="text" class="form-control" id="playlist" placeholder="Playlist Name" formControlName="playlist">
+                <small class="text-danger" *ngIf="!myReactiveForm.get('playlist').valid && myReactiveForm.get('playlist').touched ">
+                <span *ngIf="myReactiveForm.get('playlist').errors['required']">Playlist Name is required</span>
+                <span *ngIf="myReactiveForm.get('playlist').errors['minlength']">Name must be at least 3 characters long</span>
+                </small>
+            </div>
+            <button class="btn btn-info my-4 btn-block" type="button" [disabled]="!myReactiveForm.valid" (click)="onSubmit()">Create Playlist</button>
+        </form>
+    </div>
+</div>

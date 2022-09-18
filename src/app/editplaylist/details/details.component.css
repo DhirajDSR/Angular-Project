@@ -1,0 +1,12 @@
+.vl {
+    border-left: 1px solid rgba(9, 15, 9, 0.192);
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+
+  span{
+    color: darkblue;
+  }

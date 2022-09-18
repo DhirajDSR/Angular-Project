@@ -1,0 +1,21 @@
+<div *ngFor="let p of playlist" >
+  <h3 class="mt-4 ml-4">{{p}}</h3>
+  <div class="container-fluid">
+  <div class="row text-center ">
+  <ng-container class="col-md-3" *ngFor="let s of songlist |keyvalue | filter:songsearch ">
+    <div *ngIf="s.value.Playlist.includes(p)">
+  <div class="card cards mt-2 " style="width: 18rem; height: auto;" >
+      <img src="{{s.value.ImgUrl}}" class="card-img-top" alt="...">
+      <div class="card-body ">
+        <p class="card-text">
+          {{s.value.Name}} </p>
+          <button type="button" class="btn btn-primary" (click) = "play(s.value.Name, s.value.SongUrl)"><i class="fas fa-play"></i>Play</button>
+          <button type="button" class="btn btn-primary" (click) = "pause()"> <i class="fas fa-pause"></i>Pause</button> 
+      </div>
+    </div>
+    </div>
+  </ng-container>
+  </div>
+  </div>
+  </div>
+

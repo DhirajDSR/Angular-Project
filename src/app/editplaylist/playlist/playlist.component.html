@@ -1,0 +1,59 @@
+<div >
+  <a routerLink="new" class="btn btn-secondary ml-4 mt-3" (click)="submit()"> Create New Playlist </a>
+  <a routerLink="/editplaylist/chartview" class="btn btn-secondary ml-4 mt-3">Chart View</a>
+  <router-outlet></router-outlet>
+</div>
+
+<div id="accordion">
+    <div *ngFor="let p of playlist" >
+      <!-- <div class="mt-2 card" style="width: auto; height: 65px;"> -->
+      <div class="mt-2 card bg-info text-white">
+       <div class="row">
+        <div class="card-body">
+               <h3 class="ml-4"><a  data-toggle="collapse" class="pname" href="#{{p}}">{{p}} </a></h3>        
+        </div>
+        <div class="col text-right mr-2 mt-4">
+          <div class="dropdown">
+            <!--Trigger-->
+            <button class="btn dropdown px-2" type="button" id="dropdownMenu1" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-v"></i></button>
+            <!--Menu-->
+            <div class="dropdown-menu dropdown-primary">
+              <a class="dropdown-item" routerLink ="{{'//editplaylist/update/'+p}}"><i class="fas fa-folder-plus"></i>&nbsp;&nbsp;Update Playlit</a>
+              <a class="dropdown-item" href="javascript:​void(0);" (click)="deleteplaylist(p,s)"><i class="fas fa-trash"></i>&nbsp;&nbsp;Delete Playlist</a>
+            </div>
+          </div>
+        </div>
+      </div> 
+        </div>
+      <div id="{{p}}" class="collapse" data-parent="#accordion">
+      <div class="container-fluid">
+      <div class="row text-center ">
+      <ng-container class="col-md-3" *ngFor="let s of songlist |keyvalue ">
+        <div *ngIf="s.value.Playlist.includes(p)">
+      <div class="card cards mt-2 " style="width: 18rem; height: auto;" >
+          <img src="{{s.value.ImgUrl}}" class="card-img-top" alt="...">
+          <div class="card-body ">
+            <p class="card-text">
+              {{s.value.Name}} </p>
+              <button type="button" class="btn btn-primary" (click) = "delete(s,p)"><i class="fas fa-trash"></i>Delete</button>
+          </div>
+        </div>
+        </div>
+        
+      </ng-container>
+      <div class="col-md-2 ml-4 mt-2">
+        <div class="card" style="width: 18rem; height: auto;" >
+            <img src="https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/add-song.png?alt=media&token=fa5e4911-d1cf-480d-8331-ba31375739ac" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <p class="card-text">
+                Add Song </p>
+                <button type="button" class="btn btn-primary justify-content-center" (click)="addsong(p)"><i class="fas fa-folder-plus"></i>Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>

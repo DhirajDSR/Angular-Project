@@ -1,0 +1,16 @@
+h3{
+    color: darkblue;
+}
+
+.cards{
+    margin-left: 40px;
+}
+
+a.pname{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    color: white;
+}

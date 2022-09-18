@@ -1,0 +1,14 @@
+h3{
+    color: darkblue;
+}
+button{
+    margin-right: 5px;
+}
+
+button:last-child{
+    margin-right: 0;
+}
+
+.cards{
+    margin-left: 40px;
+}

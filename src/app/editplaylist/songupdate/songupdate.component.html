@@ -1,0 +1,58 @@
+
+<div class="col-md-8 mx-auto " >
+    <form [formGroup]="myReactiveForm" >  
+        
+        <div class="row justify-content-center">
+            <div class="col-lg-5 text-left py-3 mt-2 shadow myform ">
+                <div class="col-md-12">
+                    <h1 class="text-center">Song Details</h1>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder="Song Title" [(ngModel)]="name" formControlName="name">
+                        <small class="text-danger" *ngIf="!myReactiveForm.get('name').valid && myReactiveForm.get('name').touched ">
+                        <span *ngIf="myReactiveForm.get('name').errors['required']">Song Title is required</span>
+                        <span *ngIf="myReactiveForm.get('name').errors['minlength']">Song Title must be at least 3 characters long</span>
+                        </small>
+                    </div>
+                
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="singer" placeholder="Singer Name" [(ngModel)]="singer" formControlName="singer">
+                        <small class="text-danger" *ngIf="!myReactiveForm.get('singer').valid && myReactiveForm.get('singer').touched ">
+                            <span *ngIf="myReactiveForm.get('singer').errors['required']">Singer name is required</span>
+                            <span *ngIf="myReactiveForm.get('singer').errors['minlength']">Singer Name must be at least 3 characters long</span>
+                            </small>
+                    </div>
+                
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="movie" placeholder="Movie Name" [(ngModel)]="movie"  formControlName="movie">
+                        <small class="text-danger" *ngIf="!myReactiveForm.get('movie').valid && myReactiveForm.get('movie').touched ">
+                            <span *ngIf="myReactiveForm.get('movie').errors['required']">Movie Name is required</span>
+                            <span *ngIf="myReactiveForm.get('movie').errors['minlength']">Movie Name must be at least 3 characters long</span>
+                            </small>
+                    </div>
+                
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="genre" placeholder="Genre" [(ngModel)]="genre" formControlName="genre">
+                        <small class="text-danger" *ngIf="!myReactiveForm.get('genre').valid && myReactiveForm.get('genre').touched ">
+                            <span *ngIf="myReactiveForm.get('genre').errors['required']">Genre is required</span>
+                            <span *ngIf="myReactiveForm.get('genre').errors['minlength']">Genre must be at least 3 characters long</span>
+                            </small>
+                    </div>
+                
+                    <div class="form-group">
+                        <input type="time" class="form-control" id="length" placeholder="Song length" [(ngModel)]="length"  formControlName="length">
+                        <small class="text-danger" *ngIf="!myReactiveForm.get('length').valid && myReactiveForm.get('length').touched ">
+                            <span *ngIf="myReactiveForm.get('length').errors['required']">Song length is required</span>
+                            </small>     
+                    </div>
+                    
+                    <!-- <button type="submit" class="btn btn-primary" >Submit</button> -->
+                    <div class="col-md-12 text-center mb-3">
+                        <button type="submit" (click)="updatesong()" class=" btn btn-block mybtn btn-primary tx-tfm text-uppercase text-white" [disabled]="!myReactiveForm.valid">Update Song</button>
+                     </div>
+                 </div>        
+        
+    </div>
+    </div>
+    </form>
+    </div>

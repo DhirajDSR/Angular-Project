@@ -1,0 +1,86 @@
+<div class="col-md-8 mx-auto " >
+<form [formGroup]="myReactiveForm" >  
+    
+    <div class="row justify-content-center">
+        <div class="col-lg-5 text-left py-3 mt-2 shadow myform ">
+            <div class="col-md-12">
+                <h1 class="text-center">SignUp</h1>
+
+                <div class="form-group">
+                    <label for="fname">First Name: </label>
+                    <input type="text" class="form-control" id="fname" placeholder="Enter Firstname" formControlName="fname">
+                    <small class="text-danger" *ngIf="!myReactiveForm.get('fname').valid && myReactiveForm.get('fname').touched ">
+                    <span *ngIf="myReactiveForm.get('fname').errors['required']">Name is required</span>
+                    <span *ngIf="myReactiveForm.get('fname').errors['minlength']">Name must be at least 3 characters long</span>
+                    </small>
+                </div>
+            
+                <div class="form-group">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" class="form-control" id="lname" placeholder="Enter Lastname" formControlName="lname">
+                    <small class="text-danger" *ngIf="!myReactiveForm.get('lname').valid && myReactiveForm.get('lname').touched ">
+                        <span *ngIf="myReactiveForm.get('lname').errors['required']">Last name is required</span>
+                        <span *ngIf="myReactiveForm.get('lname').errors['minlength']">Last Name must be at least 3 characters long</span>
+                        </small>
+                </div>
+            
+                <div class="form-group">
+                    <label for="emailid">Email ID: </label>
+                    <input type="text" class="form-control" id="emailid" placeholder="Enter Email Id" formControlName="emailid">
+                    <small class="text-danger" *ngIf="!myReactiveForm.get('emailid').valid && myReactiveForm.get('emailid').touched ">
+                        <span *ngIf="myReactiveForm.get('emailid').errors['required']">Email is required</span>
+                        <span *ngIf="myReactiveForm.get('emailid').errors['email']">Please Enter Valid Email</span>
+                        </small>
+                </div>
+            
+                <div class="form-group">
+                    <label for="location">Location:</label>
+                    <input type="text" class="form-control" id="location" placeholder="Enter Location" formControlName="location">
+                    <small class="text-danger" *ngIf="!myReactiveForm.get('location').valid && myReactiveForm.get('location').touched ">
+                        <span *ngIf="myReactiveForm.get('location').errors['required']">Location is required</span>
+                        <span *ngIf="myReactiveForm.get('location').errors['minlength']">Location must be at least 4 characters long</span>
+                        </small>
+                </div>
+            
+                <div class="form-group">
+                    <label for="mobileno">Mobile No:</label>
+                    <input type="number" class="form-control" id="mobileno" placeholder="Enter Mobile No" formControlName="mobileno">
+                    <small class="text-danger" *ngIf="!myReactiveForm.get('mobileno').valid && myReactiveForm.get('mobileno').touched ">
+                        <span *ngIf="myReactiveForm.get('mobileno').errors['required']">Mobile No is required</span>
+                        <span *ngIf="myReactiveForm.get('mobileno').errors['min']">Enter Valid Mobile No </span>
+                        </small>
+                </div>
+            
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter Password" formControlName="password">
+                    <small class="text-danger" *ngIf="!myReactiveForm.get('password').valid && myReactiveForm.get('password').touched ">
+                        <span *ngIf="myReactiveForm.get('password').errors['required']">Password is required</span>
+                        <span *ngIf="myReactiveForm.get('password').errors['minlength']">Password must be at least 8 characters long</span>
+                        </small>
+                </div>
+            
+                <div class="form-group">
+                    <label for="cpassword">Confirm Password:</label>
+                    <input type="password" class="form-control" id="cpassword" placeholder="Enter Confirm Password" formControlName="cpassword">
+                    <small class="text-danger" *ngIf="!myReactiveForm.get('cpassword').valid && myReactiveForm.get('cpassword').touched ">
+                        <span *ngIf="myReactiveForm.get('cpassword').errors['required']">Confirm Password is required</span>
+                        </small>
+                        <span class="text-danger" *ngIf="myReactiveForm.errors && myReactiveForm.get('cpassword').valid "><small>Password must be same</small></span> 
+            
+                        
+                </div>
+                <!-- <button type="submit" class="btn btn-primary" >Submit</button> -->
+                <div class="col-md-12 text-center mb-3">
+                    <button type="submit" (click)="adduser()" class=" btn btn-block mybtn btn-primary tx-tfm text-uppercase text-white" [disabled]="!myReactiveForm.valid">Get Started For Free</button>
+                 </div>
+                 <div class="col-md-12 ">
+                    <div class="form-group">
+                       <p class="text-center"><button  (click)="login()" id="signin"><b>Already have an account?</b></button></p>
+                    </div>
+                 </div>
+             </div>    
+</div>
+</div>
+</form>
+</div>

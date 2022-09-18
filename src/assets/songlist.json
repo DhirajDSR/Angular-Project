@@ -1,0 +1,294 @@
+{
+  "songlist": [
+    {
+      "Playlist": [
+        "Bollywood",
+        "Latest",
+        "new"
+      ],
+      "Name": "DILBAR Satyameva Jayate",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FDILBAR%20LyricalSatyameva%20Jayate%20John%20Abraham%2C%20Nora%20Fatehi%2CTanishk%20B%2C%20Neha%20Kakkar%2CDhvani%2C%20Ikka.mp3?alt=media&token=98750a5c-7ca9-4449-8b1e-8d7ded07165c",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FDILBAR.jpg?alt=media&token=21c3483a-4763-4f0a-ae75-31d93e40460c",
+      "Singer": "Neha Kakkar",
+      "Length": "03:19",
+      "movie": "Satyameva Jayate",
+      "genere": "Dance",
+      "id": 1
+    },
+    {
+      "Name": "Badshah - Genda Phool",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FBadshah%20-%20Genda%20Phool%20Jacqueline%20Fernandez%20Payal%20Dev%20Official%20Music%20Video%202020.mp3?alt=media&token=59e876f2-c441-49a7-9264-78006117cf98",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FBadshah%20-%20Genda%20Phool.jpg?alt=media&token=9b5172c0-89d2-4992-993d-c01a893cc57e",
+      "id": 2,
+      "Playlist": [
+        "Bollywood"
+      ],
+      "Singer": "Badshah",
+      "Length": "02:50",
+      "movie": "Album",
+      "genere": "Fun"
+    },
+    {
+      "Name": "Bom Diggy Diggy",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FBom%20Diggy%20Diggy%20(VIDEO)%20Zack%20Knight%20Jasmin%20Walia%20Sonu%20Ke%20Titu%20Ki%20Sweety.mp3?alt=media&token=6c7ee5fd-961b-48b0-b01a-9827ff89f9e8",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FBom%20Diggy%20Diggy.jpg?alt=media&token=9fc4db64-2c08-4db9-acae-a5ba38f898eb",
+      "id": 3,
+      "Playlist": [
+        "Bollywood"
+      ],
+      "Singer": "Zack Knight",
+      "Length": "03:58",
+      "movie": "Sonu Ke Titu Ki Sweety",
+      "genere": "Dance"
+    },
+    {
+      "Playlist": [
+        "Punjabi",
+        "Latest",
+        "Sad"
+      ],
+      "Name": "Desi Desi Na Bolya Kar Chori Re",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FDesi%20Desi%20Na%20Bolya%20Kar%20Chori%20ReNew%20Punjabi%20Song%202021Boys%20Attitude%20Song.mp3?alt=media&token=b4b98151-6dd7-4144-9d5b-85a313a2d305",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FDesi%20Desi%20Na%20Bolya%20Kar%20Chori%20Re.jpg?alt=media&token=9838b16a-c45a-4c85-a98c-c6c87eb67ece",
+      "Singer": "Raju Punjabi",
+      "Length": "03:34",
+      "movie": "Album",
+      "genere": "Fun",
+      "id": 4
+    },
+    {
+      "Name": "Dus Bahane 2.0",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FDus%20Bahane%202.0%20-%20Baaghi%203%20128%20Kbps.mp3?alt=media&token=b3d9a0e2-3dff-40c0-a947-ecce198c28cc",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FDus%20Bahane%202.0.jpg?alt=media&token=4ebca615-aa19-40d0-acea-7f718f041de8",
+      "id": 5,
+      "Playlist": [
+        "Bollywood"
+      ],
+      "Singer": "Shekhar Ravjiani",
+      "Length": "03:19",
+      "movie": "War",
+      "genere": "Romantic"
+    },
+    {
+      "Playlist": [
+        "Bollywood",
+        "Latest"
+      ],
+      "Name": "Illegal Weapon 2.0",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FFull%20Video%20Illegal%20Weapon%202.0Street%20Dancer%203D%20Varun%20D%2CShraddha%20K%2CNoraTanishk%20B%2CJasmine%20S%2CGarry%20S.mp3?alt=media&token=ba7d698e-e516-4506-a41e-10010f6385e0",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FFull%20Video%20Illegal%20Weapon%202.0.jpg?alt=media&token=7da87cdf-7884-4291-b7f3-3e9e0a0c5d3a",
+      "Singer": "Jasmine Sandlas",
+      "Length": "03:38",
+      "movie": "Street Dancer",
+      "genere": "Dance",
+      "id": 6
+    },
+    {
+      "Playlist": [
+        "Bollywood",
+        "Sad",
+        "new"
+      ],
+      "Name": "Ik Mulaqaat - Dream Girl",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FIk%20Mulaqaat%20-%20Dream%20Girl%20Ayushmann%20Khurrana%2C%20Nushrat%20Bharucha%20Meet%20Bros%20Ft.%20Altamash%20F%20%26%20Pal.mp3?alt=media&token=3a22c7ce-f703-4e4f-b9d3-f0d83109b5e7",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FIk%20Mulaqaat%20-%20Dream%20Girl.jpg?alt=media&token=5551baf8-f61f-4658-901e-63963a1d3099",
+      "Singer": "Palak Muchhal",
+      "Length": "03:16",
+      "movie": "Dream Girl",
+      "genere": "Romantic",
+      "id": 7
+    },
+    {
+      "Name": "Saaho Bad Boy",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FSaaho%20Bad%20Boy%20Song%20Prabhas%2C%20Jacqueline%20Fernandez%20Badshah%2C%20Neeti%20Mohan.mp3?alt=media&token=a2b93559-c19d-43b5-abee-7246b0ec6064",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FSaaho%20Bad%20Boy.jpg?alt=media&token=2e22a2d6-c67b-4c48-be53-669813b9ed2c",
+      "id": 8,
+      "Playlist": [
+        "Bollywood"
+      ],
+      "Singer": "Baadshah",
+      "Length": "03:17",
+      "movie": "Saaho",
+      "genere": "Pop"
+    },
+    {
+      "Playlist": [
+        "Bollywood",
+        "Latest"
+      ],
+      "Name": "Kala Chashma",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FKala%20ChashmaBaar%20Baar%20DekhoSidharth%20M%20Katrina%20KPrem%2C%20Hardeep%2C%20Badshah%2C%20Kam%2C%20Neha%2C%20Indeep.mp3?alt=media&token=77368293-27b4-4204-824a-5e288660d9eb",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FKala%20Chashma.jpg?alt=media&token=d4639e55-b923-40c4-99cb-301d49b54685",
+      "Singer": "Amar Arshi",
+      "Length": "03:21",
+      "movie": "Baar Baar Dekho",
+      "genere": "Dance",
+      "id": 9
+    },
+    {
+      "Playlist": [
+        "Bollywood",
+        "Trending",
+        "Latest"
+      ],
+      "Name": "Lut Gaye",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FLut%20Gaye%20(Full%20Song)%20Emraan%20Hashmi%2C%20Yukti%20Jubin%20N%2C%20Tanishk%20B%2C%20Manoj%20M%20Bhushan%20K%20Radhika-Vi.mp3?alt=media&token=c859cf4a-284b-46bf-8973-ca7b7c1e0221",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Hindi%20Song%2FLut%20Gaye.jpg?alt=media&token=d2f29160-dfb4-4ef9-8a9c-e75cf1b35d31",
+      "Singer": "Jubin Nautiyal",
+      "Length": "04:50",
+      "movie": "Album",
+      "genere": "Romantic",
+      "id": 10
+    },
+    {
+      "Playlist": [
+        "Punjabi",
+        "new"
+      ],
+      "Name": "Bapu Zimidar Jassi Gill",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FBapu%20Zimidar%20Jassi%20Gill%20Replay%20(%20Return%20Of%20Melody%20)%20Latest%20Punjabi%20Songs.mp3?alt=media&token=724b6a08-643c-495a-b0f5-847995c404a5",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FBapu%20Zimidar%20%20Jassi%20Gill.jpg?alt=media&token=bd341557-379d-4047-b202-a2631f3c6269",
+      "Singer": "Jassie Gill",
+      "Length": "03:03",
+      "movie": "Replay",
+      "genere": "Pop",
+      "id": 12
+    },
+    {
+      "Playlist": [
+        "Punjabi",
+        "Sad"
+      ],
+      "Name": "Butterfly Jass Manak",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FButterfly%20Jass%20Manak%20(Full%20Video)%20Satti%20Dhillon%20Sharry%20Nexus%20GK%20DIGITAL%20New%20Songs%20Geet.mp3?alt=media&token=16736198-cf14-48dc-9f19-dab00a0690b2",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FButterfly%20Jass%20Manak.jpg?alt=media&token=98133dbd-e3db-42f1-89ba-d117c553df02",
+      "Singer": "Jas Manak",
+      "Length": "02:43",
+      "movie": "Album",
+      "genere": "Pop",
+      "id": 13
+    },
+    {
+      "Playlist": [
+        "Punjabi",
+        "Trending",
+        "Sad"
+      ],
+      "Name": "Daru Badnaam",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FDaru%20Badnaam%20Kamal%20Kahlon%20%26%20Param%20Singh%20Official%20Video%20Pratik%20Studio%20Latest%20Punjabi%20Song.mp3?alt=media&token=5ee7a8fb-fa85-41c7-adb0-7f7ee081989a",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FDaru%20Badnaam.jpg?alt=media&token=522cdfab-6535-4849-939c-894338eb4beb",
+      "Singer": "Param Singh",
+      "Length": "04:00",
+      "movie": "Album",
+      "genere": "Fun",
+      "id": 14
+    },
+    {
+      "Playlist": [
+        "Punjabi",
+        "Latest"
+      ],
+      "Name": "High Rated Gabru",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FGuru%20Randhawa%20High%20Rated%20Gabru%20Official%20Song%20DirectorGifty%20Bhushan%20Kumar%20T-Series.mp3?alt=media&token=b6610773-6319-4232-bca9-c16fb579357e",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FGuru%20Randhawa%20High%20Rated%20Gabru.jpg?alt=media&token=874ca0d2-e4a5-43e3-ba34-b5cd2ca91f75",
+      "Singer": "Guru Randhawa",
+      "Length": "03:45",
+      "movie": "Album",
+      "genere": "Pop",
+      "id": 15
+    },
+    {
+      "Playlist": [
+        "Punjabi",
+        "Latest"
+      ],
+      "Name": "Lamberghini ",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FLamberghini%20(Full%20Video)%20The%20Doorbeen%20Feat%20Ragini%20Latest%20Punjabi%20Song%202018%20Speed%20Records.mp3?alt=media&token=60fdba7e-d4d1-4702-b967-5c279fd00182",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FLamberghini.jpg?alt=media&token=ef0f70a2-2a41-4e02-a633-bd08e120ed8d",
+      "Singer": "Neha Kakkar",
+      "Length": "03:37",
+      "movie": "Album",
+      "genere": "Hip-Hop",
+      "id": 16
+    },
+    {
+      "Playlist": [
+        "Punjabi",
+        "Sad"
+      ],
+      "Name": "Lehanga Jass Manak",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FLehanga%20Jass%20Manak%20(Official%20Video)%20Satti%20Dhillon%20Latest%20Punjabi%20Songs%20GK%20DIGITAL%20Geet%20M.mp3?alt=media&token=c1883637-44d5-4745-88b1-87c83d0519bf",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FLehanga%20%20Jass%20Manak.jpg?alt=media&token=1d9b2a8d-63e7-4ba3-abf3-ed8ccec34ab4",
+      "Singer": "Jass Manak",
+      "Length": "03:45",
+      "movie": "Album",
+      "genere": "Pop",
+      "id": 17
+    },
+    {
+      "Playlist": [
+        "Punjabi",
+        "Trending"
+      ],
+      "Name": "Naach Meri Rani",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FNaach%20Meri%20Rani%20Guru%20Randhawa%20Feat.%20Nora%20Fatehi%20Tanishk%20Bagchi%20Nikhita%20Gandhi%20Bhushan%20Kum.mp3?alt=media&token=4623de6d-6e30-4b9e-9e12-639376bf0536",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FNaach%20Meri%20Rani.jpg?alt=media&token=415ae16f-d619-44af-8642-1b0e8c81919d",
+      "Singer": "Guru Randhawa",
+      "Length": "03:43",
+      "movie": "Album",
+      "genere": "Romantic",
+      "id": 18
+    },
+    {
+      "Name": "Proper Patola",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FProper%20Patola%20-%20Official%20Video%20Namaste%20England%20Arjun%20Parineeti%20Badshah%20Diljit%20Aastha.mp3?alt=media&token=c1a3ea60-3bd5-4d4a-80aa-5a8fb7c477c1",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FProper%20Patola.jpg?alt=media&token=ba18658f-3ace-45f3-b640-e87bfc616e85",
+      "id": 19,
+      "Playlist": [
+        "Punjabi"
+      ],
+      "Singer": "Diljit Dosanjh",
+      "Length": "03:00",
+      "movie": "Namaste England",
+      "genere": "Folk"
+    },
+    {
+      "Name": "TORA",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FSUMIT%20GOSWAMI%20-%20TORA%20(OFFICIAL%20VIDEO)KHATRIDEEPESH%20GOYALLATEST%20HARYANVI%20SONG%202020.mp3?alt=media&token=094be4b3-98c7-4e19-9d9f-1a07dc51d98c",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FSUMIT%20GOSWAMI%20-%20TORA.jpg?alt=media&token=060dc96f-d2f5-45cc-883f-19de7520a06a",
+      "id": 20,
+      "Playlist": [
+        "Punjabi"
+      ],
+      "Singer": "Sumit Goswami",
+      "Length": "03:00",
+      "movie": "Album",
+      "genere": "Pop"
+    },
+    {
+      "Playlist": [
+        "Punjabi",
+        "Trending"
+      ],
+      "Name": "Left Right Ajay Hooda",
+      "SongUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FLeft%20Right%20(Official%20Video)%20Ajay%20Hooda%20%26%20Neha%20Rana%20S%20Surila%20New%20Haryanvi%20Song%202020%20Mor%20M.mp3?alt=media&token=590158f7-cd6b-4071-8783-514bf72b4210",
+      "ImgUrl": "https://firebasestorage.googleapis.com/v0/b/angular-music-player-bf721.appspot.com/o/Top%20Punjabi%20Song%2FLeft%20Right%20%20Ajay%20Hooda.jpg?alt=media&token=e9e40a81-f555-4263-997a-077992b4b3ab",
+      "Singer": "Ajay Hooda",
+      "Length": "03:47",
+      "movie": "Album",
+      "genere": "Rock",
+      "id": 21
+    }
+  ],
+  "userdetails": [
+    {
+      "FirstName": "Dhiraj",
+      "LastName": "Singh",
+      "Email": "dhiraj.singh12@wipro.com",
+      "Location": "Bangalore",
+      "MobileNo": 7000364056,
+      "Password": "12345678",
+      "id": 1
+    }
+  ]
+}

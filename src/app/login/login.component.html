@@ -1,0 +1,51 @@
+<div class="col-md-8 mx-auto ">
+    <form [formGroup]="myReactiveForm" (ngSubmit)="onSubmit()">
+
+        <div class="row justify-content-center">
+            <div class="col-lg-5 text-left py-3 mt-2 shadow myform ">
+                <div class="col-md-12">
+                    <h1 class="text-center">LogIn</h1>
+
+                    <div class="form-group">
+                        <label for="email">Email Id: </label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter Email Id"
+                            formControlName="email">
+                        <small class="text-danger"
+                            *ngIf="!myReactiveForm.get('email').valid && myReactiveForm.get('email').touched ">
+                            <span *ngIf="myReactiveForm.get('email').errors['required']">Email Id is required</span>
+                            <span *ngIf="myReactiveForm.get('email').errors['email']">Please Enter Valid Email</span>
+                        </small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter Password"
+                            formControlName="password">
+                        <small class="text-danger"
+                            *ngIf="!myReactiveForm.get('password').valid && myReactiveForm.get('password').touched ">
+                            <span *ngIf="myReactiveForm.get('password').errors['required']">Password is required</span>
+                            <span *ngIf="myReactiveForm.get('password').errors['minlength']">Password must be at least 8
+                                characters long</span>
+                        </small>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="text-center">By signing up you accept our <a href="#" class="inactiveLink">Terms Of
+                                Use</a></p>
+                    </div>
+                    
+                    <div class="col-md-12 text-center ">
+                        <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm text-white"
+                            [disabled]="!myReactiveForm.valid">Login</button>
+                    </div>
+
+                    <div class="form-group">
+                        <p class="text-center mt-3">Don't have account? <button type="button" (click)="signup()"
+                                id="signup">Sign up here</button></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </form>
+</div>

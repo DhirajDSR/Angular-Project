@@ -1,0 +1,31 @@
+.navbar{
+   height: auto;
+}
+
+div#header{
+        position:fixed;
+        z-index: 3;
+        top: 0px;
+        width: 100%;
+}
+
+.footer {
+    position: fixed;
+    bottom:0;
+    height: auto;
+    width: 100%;
+    padding: 0px;  
+}
+
+
+
+.body_containers {
+  margin-top: 55px;
+  margin-bottom: 90px;
+}
+
+.footer-icon i{
+           float:right;
+           padding: 10px;
+}
+

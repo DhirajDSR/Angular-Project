@@ -1,0 +1,23 @@
+h5{
+    color: darkblue;
+}
+
+.btn2{
+    color: rgb(173, 37, 37);
+    text-decoration: none;
+}
+
+.btn1{
+    text-decoration: none;
+}
+
+a{
+    color: rgba(102, 102, 102, 0.938);
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
